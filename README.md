@@ -11,7 +11,7 @@ Documenting my journey of learning computer networking through my notes, diagram
 
 ### MONTH 1: Computer Networking
 
-Week 1:
+Week 1: (PLANNED)
   - Internet basics
   - Network types
   - Networking devices
