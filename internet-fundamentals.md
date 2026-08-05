@@ -31,7 +31,7 @@ Webpage Response
     - These packets then travel through routers & different networks until they reach destination server.
     - The server then sends the requested information back to my device as a response.
 
-### Components of Internet (Overview)
+## Components of Internet (Overview)
     1. END DEVICES
          >>laptop
          >>Smartphones
@@ -55,7 +55,7 @@ Webpage Response
                      Bluetooth 
                      Satellites 
 
- #### Client server model (overview)
+ ## Client server model (overview)
   > Client- Device or application requesting a service
             ex-Browser requesting webpage
                Mobile app requesting data
@@ -63,7 +63,7 @@ Webpage Response
           ex- Web server
               file server
 
-##### Internet Protocols 
+## Internet Protocols 
 Internet protocols are a set of rules and standards that allow devices to communicate and exchange data over the Internet.
 //Working
 When data is transferred over Internet protocols define:
@@ -91,7 +91,7 @@ When data is transferred over Internet protocols define:
                 - HTTPS protects the information being exchanged.
 These protocols work together silently every time I use the Internet.
 
-##### IP Addresses
+## IP Addresses
  Every device connected to a network needs an identity so that data can reach the correct destination.
  IP address identifies a device on a network 
 
