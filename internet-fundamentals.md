@@ -5,5 +5,6 @@
        -  Internet is a network of networks which isn't owned or controlled by any single entity.
        -  Devices communicate with each other using standard protocols.
     > (Example)
-       
+       - ![Network of networks]
+    >        
        
