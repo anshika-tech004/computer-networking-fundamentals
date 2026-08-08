@@ -8,11 +8,11 @@
        - OSI Layer- physical
        - cheap
        - Used to create LAN
-   //Drawback
+   # Drawback
       - half duplex: which means data cannot be sent and received simultaneously
       - data cannot be sent privately which means each connected device will receive it
 
-   Example
+      #Example
     ![HUB figure](HUB.png)
 
 2.SWITCH- Connects devices within a single network 
@@ -21,8 +21,13 @@
        - faster & efficient 
        - If a node fails there will be no effect on entire network
 
-  //Drawback
+  # Drawback
      - Difficult to setup
      - Expensive 
+
+     #Example
+
+      ![switch figure](switch.png)
+      
 
      
