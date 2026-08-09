@@ -71,7 +71,7 @@
    - Connects 2 LAN segments
    - OSI layer- Data Link Layer
    - can only have 2-4 ports only
-     # Working
+     Working
       It collects data from LAN1 examines it, then notes the MAC address & port number  of destination (LAN2) & then
      forwards the data to LAN2
 
