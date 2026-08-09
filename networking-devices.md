@@ -64,6 +64,20 @@
    - Uses no address
    - Example- Suppose my wifi signal is strong in living room but weak in bedroom so I'll use repeater to boost the signal
 
+     ![Repeater working](repeater.png)
+
+
+6. BRIDGE
+   - Connects 2 LAN segments
+   - OSI layer- Data Link Layer
+   - can only have 2-4 ports only
+   - Working
+      It collects data from LAN1 examines it, then notes the MAC address & port number  of destination (LAN2) & then
+     forwards the data to LAN2
+
+     ![Bridge working](bridge.png)
+     
+
       
 
         
