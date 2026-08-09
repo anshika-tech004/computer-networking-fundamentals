@@ -76,6 +76,17 @@
      forwards the data to LAN2
 
      ![Bridge working](bridge.png)
+
+
+7. GATEWAY
+    - Connects similar/disimilar netowrks
+    - Acts as a path or door for devices to reach external networks
+    - OSI Layer-  ALL
+
+   ![Gateway](gateway.png)
+
+
+  
      
 
       
