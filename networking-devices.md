@@ -17,7 +17,7 @@
     
     ![HUB figure](HUB.png)
 
-3. SWITCH
+2. SWITCH
 -Connects devices within a single network 
 -Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
 - OSI Layer- Data Link layer
@@ -26,10 +26,32 @@
 
    Drawback
    - Difficult to setup
-   - Expensive 
+   - Expensive
 
-    
- 
-  ![switch figure](switch.png)
-  
+      ![switch figure](switch.png)
+
+ 3. ROUTER
+    - Chooses a traffic free path through which data packet will travel
+    - Distributes the internet to the devices
+    - Connects different network together
+    - OSI Layer- Network Layer
+    - Can work in LAN and WAN both
+
+     Drawback
+      - Expensive
+      - Security issue
+
+
+   4. MODEM (Modulator & Demodulator)
+      - It brings Internet to the house while the router distributes it to the respective devices
+        or
+      - Device that connects your home/office network to ISP by converting signal from
+           digital to analog (Modulator)
+           analog to digital (demodulator)
+      - OSI Layer- Physical and Data link layer
+
+
+        
+
+   
      
