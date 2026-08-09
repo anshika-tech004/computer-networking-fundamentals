@@ -3,12 +3,12 @@
 - Ensures that data reaches its correct destination efficiently
 
 ## Types of Networking Devices
-1. HUB:
--Connects multiple computer
--Broadcasts data to all connected devices
--OSI Layer- physical
--cheap
--Used to create LAN
+1. HUB
+    -Connects multiple computer
+    -Broadcasts data to all connected devices
+    -OSI Layer- physical
+    -cheap
+    -Used to create LAN
    
   Drawback
   - half duplex: which means data cannot be sent and received simultaneously
@@ -18,11 +18,11 @@
     ![HUB figure](HUB.png)
 
 2. SWITCH
--Connects devices within a single network 
--Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
-- OSI Layer- Data Link layer
-- faster & efficient 
-- If a node fails there will be no effect on entire network
+    -Connects devices within a single network 
+    -Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
+    - OSI Layer- Data Link layer
+    - faster & efficient 
+    - If a node fails there will be no effect on entire network
 
    Drawback
    - Difficult to setup
@@ -50,6 +50,21 @@
            analog to digital (demodulator)
       - OSI Layer- Physical and Data link layer
 
+        ![modem working](modem.png)
+
+        (my understanding) about above 3
+          - Modem- main water meter that brings water from city to home
+          - Router- distributes that water to rooms
+          - Switch- extra splitter that adds more outlet within house      
+
+
+5. REPEATER
+   - Boosts/regenerates weak signal
+   - OSI Layer- Physical
+   - Uses no address
+   - Example- Suppose my wifi signal is strong in living room but weak in bedroom so I'll use repeater to boost the signal
+
+      
 
         
 
