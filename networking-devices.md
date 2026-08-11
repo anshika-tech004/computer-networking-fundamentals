@@ -4,11 +4,11 @@
 
 ## Types of Networking Devices
 - HUB
-    -Connects multiple computer
-    -Broadcasts data to all connected devices
-    -OSI Layer- physical
-    -cheap
-    -Used to create LAN
+    - Connects multiple computer
+    - Broadcasts data to all connected devices
+    - OSI Layer- physical
+    - cheap
+    - Used to create LAN
    
   Drawback
   - half duplex: which means data cannot be sent and received simultaneously
@@ -18,8 +18,8 @@
     ![HUB figure](HUB.png)
 
 - SWITCH
-    -Connects devices within a single network 
-    -Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
+    - Connects devices within a single network 
+    - Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
     - OSI Layer- Data Link layer
     - faster & efficient 
     - If a node fails there will be no effect on entire network
@@ -43,12 +43,12 @@
 
 
 - MODEM (Modulator & Demodulator)
-    -It brings Internet to the house while the router distributes it to the respective devices
+    - It brings Internet to the house while the router distributes it to the respective devices
                                      or
-    -Device that connects your home/office network to ISP by converting signal from
+    - Device that connects your home/office network to ISP by converting signal from
            digital to analog (Modulator)
            analog to digital (demodulator)
-    -OSI Layer- Physical and Data link layer
+    - OSI Layer- Physical and Data link layer
 
    ![modem working](modem.png)
 
