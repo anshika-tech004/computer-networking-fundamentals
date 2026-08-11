@@ -3,7 +3,7 @@
 - Ensures that data reaches its correct destination efficiently
 
 ## Types of Networking Devices
- -HUB
+  -HUB
     -Connects multiple computer
     -Broadcasts data to all connected devices
     -OSI Layer- physical
@@ -17,7 +17,7 @@
     
     ![HUB figure](HUB.png)
 
-- SWITCH
+  -SWITCH
     -Connects devices within a single network 
     -Forwards data only to specific or intended user by identifying the MAC address where the data packets are to be sent
     - OSI Layer- Data Link layer
@@ -37,12 +37,12 @@
     - OSI Layer- Network Layer
     - Can work in LAN and WAN both
 
-     Drawback
+   Drawback
       - Expensive
       - Security issue
 
 
-  -MODEM (Modulator & Demodulator)
+   -MODEM (Modulator & Demodulator)
       - It brings Internet to the house while the router distributes it to the respective devices
         or
       - Device that connects your home/office network to ISP by converting signal from
@@ -50,7 +50,7 @@
            analog to digital (demodulator)
       - OSI Layer- Physical and Data link layer
 
-    ![modem working](modem.png)
+   ![modem working](modem.png)
 
    (my understanding) about above 3
           - Modem- main water meter that brings water from city to home
@@ -67,7 +67,7 @@
      ![Repeater working](repeater.png)
 
 
-- BRIDGE
+ -BRIDGE
    - Connects 2 LAN segments
    - OSI layer- Data Link Layer
    - can only have 2-4 ports only
@@ -76,10 +76,10 @@
       It collects data from LAN1 examines it, then notes the MAC address & port number  of destination (LAN2) & then
      forwards the data to LAN2
 
-     ![Bridge working](bridge.png)
+   ![Bridge working](bridge.png)
 
 
- -GATEWAY
+  -GATEWAY
     - Connects similar/disimilar netowrks
     - Acts as a path or door for devices to reach external networks
     - OSI Layer-  ALL
