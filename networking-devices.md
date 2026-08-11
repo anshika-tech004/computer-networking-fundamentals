@@ -3,7 +3,7 @@
 - Ensures that data reaches its correct destination efficiently
 
 ## Types of Networking Devices
-  1.HUB
+  - **HUB**
       -Connects multiple computer
       -Broadcasts data to all connected devices
       -OSI Layer- physical
