@@ -98,7 +98,16 @@
  | Repeater | Regenerates signal | Physical (layer1) | signals |
  | Bridge | Connects LAN segments | Data link layer (layer2) | MAC address |
  | Gateway | Connects similar or dissimilar networks | All | IP/Protocols |
- 
+
+ ## My learning
+ I learned how different networking devices work together to enable communication between devices and network.
+   - HUB- understood basic broadcasting of data and why it's inefficient.
+   - Switch- understood that it's faster and efficient and only transfers data to the intended user.
+   - Router- Understood how routers use IP addresses to communicate between different networks.
+   - Repeater- Learned how signal regeneration helps extend network communication over greater distances.
+   - Bridge- Understood how bridges connect and filter traffic between network segments.
+   - Gateway- Learned that a gateway acts as an entry and exit point between different networks.
+   - Modem- Learned how a network connects to an ISP's access network.
  
  
 
