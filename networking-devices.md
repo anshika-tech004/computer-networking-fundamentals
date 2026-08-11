@@ -87,6 +87,23 @@
    ![Gateway](gateway.png)
 
 
+## Comparison 
+
+ | Device | Main Purpose | OSI Layer | Uses | 
+ |---|---|---|---|
+ | HUB | Broadcasts data to all computer | Physical (layer1) | Signals |
+ | Switch | Connects devices in a LAN & sends data only to the intended user | Data Link Layer (Layer2) | MAC address |
+ | Router | Connects different network | Network layer (layer3) | IP address |
+ | Modem | Connects to ISP network | Physical & Data link layer | ISP access |
+ | Repeater | Regenerates signal | Physical (layer1) | signals |
+ | Bridge | Connects LAN segments | Data link layer (layer2) | MAC address |
+ | Gateway | Connects similar or dissimilar networks | All | IP/Protocols |
+ 
+ 
+ 
+
+ 
+
   
      
 
