@@ -18,6 +18,11 @@ Week 1: ✓
   - ISP
   - Home network diagram
 
-Week 2: (Planned)
-  - 
+Week 2: (Planned) ⏳ 
+  - OSI model
+  - TCP/IP Model
+  - Mapping to OSI
+  - TCP VS UDP
+  - Wireshark packet capture analysis report 
+  
      
