@@ -101,19 +101,19 @@ NOTE- IP address- which device?  Port number- which application?
 - Means adding information (header) to data as it moves down the OSI layer
 - From layer7 to layer1
 - Example: Sending 'Hello' to a website
-     SENDER ENCAPSULATES
-       # Application Layer
-           - "Hello"
-       # Transport Layer
-           - [TCP Header]["Hello"]
+     - SENDER ENCAPSULATES
+         - Application Layer
+            - "Hello"
+         - Transport Layer
+            - [TCP Header]["Hello"]
               = Segment
-       # Network Layer
-           - [IP header][TCP header]["Hello"]
+         - Network Layer
+            - [IP header][TCP header]["Hello"]
               = Packet
-       # Data Link Layer
+         - Data Link Layer
            - [MAC address][IP address][TCP header]["Hello"]
               = Frame
-       # Physical Layer
+         - Physical Layer
            - 101010101.....
               = Bits
    > Header= the address/instruction assigned on "hello"
@@ -122,16 +122,16 @@ NOTE- IP address- which device?  Port number- which application?
 - Means removing header/trailer added during encapsulation as data moves UP the OSI layer.
 - From layer1 to layer7
 - Example:
-     RECEIVER DECAPSULATES
-       # Physical layer (L1)
+     - RECEIVER DECAPSULATES
+        - Physical layer (L1)
            - Receives bits
-       # Data link layer (L2)
+        - Data link layer (L2)
            - Removes MAC header
-      # Network layer (L3)
+        - Network layer (L3)
            - Removes IP header
-      # Transport layer (L4)
+        - Transport layer (L4)
           - Removes TCP/UDP header
-      # Application layer (L7)
+        - Application layer (L7)
           - Receives "hello"
 
 
