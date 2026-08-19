@@ -67,17 +67,17 @@
 
 
 ## TCP/IP Model Decapsulation
-   # Network Access Layer (L1)
-   - ethernet header + IP Header + TCP Header + HTTP data + trailer
+  - Network Access Layer (L1)
+     - ethernet header + IP Header + TCP Header + HTTP data + trailer
                 - ( remove ethernet header)
-   # Internet Layer (L2)
-  - IP Header + TCP header + HTTP Header  
+  - Internet Layer (L2)
+      - IP Header + TCP header + HTTP Header  
            - ( remove IP header)
-   # Transport Layer (L3)
-  - TCP header + HTTP header
+  - Transport Layer (L3)
+       - TCP header + HTTP header
            - (remove TCP header)
-   # Application Layer (L1)
-  - HTTP data
+  - Application Layer (L1)
+       - HTTP data
            - ( remove HTTP header)
 
 
