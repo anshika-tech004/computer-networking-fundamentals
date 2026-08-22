@@ -20,16 +20,16 @@
       - It is used to initiate a TCP connection with server 
       - In captured packet the SYN flag was set indicating that I(client) was attempting to establish a TCP connection.
       - Destination port was 80 (HTTP)
-      # Observation- The SYN packet represents the beginning of TCP connection establishment process
+  # Observation- The SYN packet represents the beginning of TCP connection establishment process
 
   2.- TCP SYN-ACK
       - The server responds to client's SYN  request with SYN-ACK packet.
-      # Observation- The server acknowledges my request and indicates that it is ready to establish TCP connection.
+  # Observation- The server acknowledges my request and indicates that it is ready to establish TCP connection.
 
   3.- TCP ACK
       - The client sends an ACK packet to acknowledge server's ACK-SYN response.
-      # Observation- It completes the TCP three-way handshake
-      (After this process TCP connection can be used for communication.)
+  # Observation- It completes the TCP three-way handshake
+  (After this process TCP connection can be used for communication.)
 
 # Wireshark Filters Used:
   - The following filters were used to identify relevant packets:
@@ -39,7 +39,7 @@
 
 # Screenshots/Evidence:
   - Screenshot 1- TCP three-way handshake
-    - ![TCP three-way handshake using Wireshark](TCP three-way handshake sanitized)
+    - ![TCP three-way handshake using Wireshark](TCP three-way handshake sanitized.png)
    - Observation:
        - |Step |Packet |TCP action |OSI layer |Source Port |Destination Port |TCP flags |Seq. No. |ACK No. |Header length |
          |----|----|----|----|----|----|----|----|----|----|
