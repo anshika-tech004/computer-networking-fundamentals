@@ -39,7 +39,7 @@
 
 # Screenshots/Evidence:
   - Screenshot 1- TCP three-way handshake
-    - ![TCP three-way handshake using Wireshark]!(TCP three-way handshake sanitized.png)
+![TCP 3wayhandshake using Wireshark](<TCP three-way handshake sanitized.png>)
    - Observation:
        - |Step |Packet |TCP action |OSI layer |Source Port |Destination Port |TCP flags |Seq. No. |ACK No. |Header length |
          |----|----|----|----|----|----|----|----|----|----|
