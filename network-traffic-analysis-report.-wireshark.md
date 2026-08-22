@@ -2,7 +2,7 @@
 
 # Objective:
   - The objective of this practical was to capture and analyze network traffic using Wireshark.
-  - To focus on understanding TCP communication, the TCP three-way handshake and TLS/HTTP traffic
+  - To focus on understanding TCP communication, the TCP three-way handshake and TLS/HTTPS traffic
 
 # Tools Used:
   - Wireshark
@@ -16,17 +16,17 @@
 # TCP traffic analysis:
    - During the analysis I examined TCP packets involved in establishing a connection between the client and server.
 
-  - TCP SYN
+     - TCP SYN
           - It is used to initiate a TCP connection with server 
-          - In captured packet the SYN flag was set indicating that I(client) was attempting to establish a TCP connection.
-          - Destination port was 80 (HTTP)
+            - In captured packet the SYN flag was set indicating that I(client) was attempting to establish a TCP connection.
+            - Destination port was 443 (HTTPS)
 - Observation- The SYN packet represents the beginning of TCP connection establishment process
 
-  - TCP SYN-ACK
+     - TCP SYN-ACK
         - The server responds to client's SYN  request with SYN-ACK packet.
 - Observation- The server acknowledges my request and indicates that it is ready to establish TCP connection.
 
-  - TCP ACK
+     - TCP ACK
         - The client sends an ACK packet to acknowledge server's ACK-SYN response.
 - Observation- It completes the TCP three-way handshake
           (After this process TCP connection can be used for communication.)
