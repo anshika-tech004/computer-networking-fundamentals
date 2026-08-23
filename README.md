@@ -25,6 +25,7 @@ Week 2: ✓
   - TCP VS UDP
   - Common Protocols
   - Wireshark network traffic analysis report
+  - Sanitized Screenshots(evidence)
 
 Week 3: (PLANNED)
   - IP Addressing
