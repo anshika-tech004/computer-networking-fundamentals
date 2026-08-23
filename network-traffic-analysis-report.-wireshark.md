@@ -11,15 +11,15 @@
 
 # Traffic Capture:
    - I captured live network traffic using Wireshark wherein I used its display filter to identify and examine TCP and TLs packets while accessing the website.
-   - Packet details were analyzed to understand how a connection is established and how HTTP communication begins
+   - Packet details were analyzed to understand how a connection is established and how HTTPs communication begins
 
 # TCP traffic analysis:
    - During the analysis I examined TCP packets involved in establishing a connection between the client and server.
 
      - TCP SYN
           - It is used to initiate a TCP connection with server 
-            - In captured packet the SYN flag was set indicating that I(client) was attempting to establish a TCP connection.
-            - Destination port was 443 (HTTPS)
+          - In captured packet the SYN flag was set indicating that I(client) was attempting to establish a TCP connection.
+          - Destination port was 443 (HTTPS)
 - Observation- The SYN packet represents the beginning of TCP connection establishment process
 
      - TCP SYN-ACK
@@ -39,7 +39,9 @@
 
 # Screenshots/Evidence:
   - Screenshot 1- TCP three-way handshake
+
 ![TCP 3wayhandshake using Wireshark](<TCP three-way handshake sanitized.png>)
+
    - Observation:
        - |Step |Packet |TCP action |OSI layer |Source Port |Destination Port |TCP flags |Seq. No. |ACK No. |Header length |
          |----|----|----|----|----|----|----|----|----|----|
@@ -50,6 +52,38 @@
      - I learned how TCP three way handshake establishes a connection before application data is exchanged.
      - I also learned how TCP flags, sequence number, acknowledgment number, ports and header length can be examined in
        Wireshark.
+
+ - Screenshot 2- TLS server hello
+ -  
+![TLS server hello](tls-server-hello-sanitized)
+   
+
+    - Observation:
+       - note:- This TLS packet is not from same TCP connection used for TCP three way handshake analyzed earlier
+       - |Packet type| Protocol| TLS Record layer| Handshake message| TLS Version| Length| OSI Layer| Purpose|
+         |----|----|----|----|----|----|----|----|
+         |TLS 1.2-Server Hello| TLSv1.2| Handshake Protocol| Server Hello| TLS 1.2(0x0303)| 93bytes| Layer6 Presentation              layer| Server responds to client Hello and participates in establishing the TLS session|
+    - My key learning:
+       - I learned how TLS 1.2 is involved in establishing a secure connection.
+       - The Server Hello is part of TLS handshake where the server responds to client's connection request and helps to               establish the parameter for secure communication.
+         
+  - Screenshot 3- TCP termination
+  - 
+![connection termination](TCP-FIN-ACK-sanitized)
+
+     - Observation:
+         - note:- This screeshot shows the termination of TCP three way handshake that we saw in screenshot 1.
+         - |Protocol| Source Port| Destination Port| TCP Flags| Sequence Number| Acknowledgment Number| TCP Header Length|              OSI Layer| Purpose|
+           |----|----|----|---|----|----|----|----|----|
+           |TCP |443 |51741 |FIN,ACK |5673(relative) |1615(relative) |20bytes | layer 4-Transport layer| TCP connection                 termination|
     
+           
+# What I Learned
+   - Through this practical I learned how to capture and analyze real network traffic using Wireshark.
+   -  I understood the purpose of TCP SYN, SYN-ACK and ACK packets and how they form the TCP three-way handshake.
+   -  I also observed TLS traffic and understood its role in HTTPS communication.
+   -  I got to know how TCP connection established is terminated 
+     
+ - This practical gave me hands on experience with packet level network analysis which is useful for further learning in networking and cybersecurity.     
   
     
