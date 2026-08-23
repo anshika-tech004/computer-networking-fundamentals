@@ -18,11 +18,23 @@ Week 1: ✓
   - ISP
   - Home network diagram
 
-Week 2: (Planned) ⏳ 
-  - OSI model
+Week 2: ✓ 
+  - OSI model- Layers, roles, protocols, devices, PDUs, Encapsulation and decapsulation, Troubleshooting
   - TCP/IP Model
   - Mapping to OSI
   - TCP VS UDP
-  - Wireshark packet capture analysis report 
+  - Common Protocols
+  - Wireshark network traffic analysis report
+
+Week 3: (PLANNED)
+  - IP Addressing
+  - IPv4
+  - IPv6
+  - Public IP
+  - Private IP
+  - Subnet mask
+  - CIDR+Subnetting
+  - Default gateway+DHCP+NAP
+  - IP troubleshooting
   
      
