@@ -53,9 +53,8 @@
      - I also learned how TCP flags, sequence number, acknowledgment number, ports and header length can be examined in
        Wireshark.
 
- - Screenshot 2- TLS server hello
- -  
-![TLS server hello](tls-server-hello-sanitized)
+ - Screenshot 2- TLS server hello 
+![TLS server hello](TLS-server-hello-sanitized.png)
    
 
     - Observation:
@@ -68,8 +67,7 @@
        - The Server Hello is part of TLS handshake where the server responds to client's connection request and helps to               establish the parameter for secure communication.
          
   - Screenshot 3- TCP termination
-  - 
-![connection termination](TCP-FIN-ACK-sanitized)
+![connection termination](TCP-FIN-ACK-sanitized.png)
 
      - Observation:
          - note:- This screeshot shows the termination of TCP three way handshake that we saw in screenshot 1.
