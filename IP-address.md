@@ -30,22 +30,22 @@
 
 ## Types of IP Address
   - Public IP address
-        - Assigned by-ISP (Internet Service Provider)
-        - Its an address that identifies a network/device on Internet.
-        - USES:
-             - Connecting to website and internet services.
-             - Online gaming- used for connection between gaming system and servers
-             - Helps in remote access of computers and CCTVs
-             - Helps to run internet services like email, VPN, web app
+      - Assigned by-ISP (Internet Service Provider)
+      - Its an address that identifies a network/device on Internet.
+          - USES:
+              - Connecting to website and internet services.
+              - Online gaming- used for connection between gaming system and servers
+              - Helps in remote access of computers and CCTVs
+              - Helps to run internet services like email, VPN, web app
         - EX- Home router connected to internet (ISP assigns it a public IP address)
     
   - Private IP address
-        - Assigned by- Router/DHCP server
-        - Identifies devices inside a local network like home, school, office 
-        - Range- 10.0.0.0 – 10.255.255.255
+      - Assigned by- Router/DHCP server
+      - Identifies devices inside a local network like home, school, office 
+      - Range- 10.0.0.0 – 10.255.255.255
                 - 172.16.0.0 – 172.31.255.255
                 - 192.168.0.0 – 192.168.255.255
-        -USES:
+         -USES:
             - Identifies devices within a LAN
             - Allows devices on same network to communicate
             - Connects computer to local printers
