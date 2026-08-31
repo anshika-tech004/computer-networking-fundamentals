@@ -38,7 +38,24 @@ Length- 32bits (4octets X 8bits)
            |----|----|----|----|----|----|----|----|
            |0|0|0|0|1|0|1|0|
    - Thus 192.168.1.10= 11000000.10101000.00000001.00001010
-     
+
+## Network ID VS Host ID
+|Basis| Network ID| Host ID|
+|----|----|----|
+|Meaning| Identifies Network| Identifies device in that network|
+|Assigned to| Network| Individual device|
+|Determined by| Subnet Mask| Remaining bits after network portion|
+|Example| 192.168.1.0| 192.168.1.10 (10= host ID)|
+
+## Loopback Address (local host)
+127.0.0.1- Its a IP address used by computer to communicate with itself.
+
+## Private IP Range
+  - 10.0.0.0-10.255.255.255
+  - 172.16.0.0-172.16.255.255
+  - 192.168.0.0-192.168.255.255
+
+
 
       
           
