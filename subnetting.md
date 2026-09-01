@@ -2,6 +2,35 @@
 - Refers to dividing large network into small networks called subnets
 - Each subnet has its own network address, host address, broadcast address
 
+## Key Formulas
+
+1. Total IPv4 Addresses
+
+Total Addresses = 2^Host Bits
+
+2. Usable Hosts
+
+Usable Hosts = 2^Host Bits - 2
+
+The two reserved addresses are:
+
+- Network Address
+- Broadcast Address
+
+3. Host Bits
+
+Host Bits = 32 - CIDR Prefix
+
+4. Number of Subnets
+
+When subnetting an existing network:
+
+Number of Subnets = 2^Borrowed Bits
+
+5. Block Size
+
+Block Size = 256 - Subnet Mask Value
+
 ## Subnetting Examples:
   # TYPE1- Find the details of an existing subnet
     - Given IP address- 192.168.10.75/26, find network address, broadcast address, first host, last host etc.  
