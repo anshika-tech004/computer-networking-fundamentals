@@ -1,4 +1,17 @@
 ## Subnetting Practice
+This file contains subnetting problems ranging from basic CIDR calculations to practical network-design scenarios.
+For each question, I have calculated:
+- CIDR notation
+- Subnet mask
+- Network address
+- Broadcast address
+- First usable host
+- Last usable host
+- Total addresses
+- Usable hosts
+- Block size
+- Number of subnets (where applicable)
+
 Question 1 — Basic /24 Network
 Given the network:
 192.168.1.0/24
@@ -217,24 +230,23 @@ Usable hosts:
 Block size:
 256 - 240 = 16
 
-Network Addresses
-
-192.168.5.0/28
-192.168.5.16/28
-192.168.5.32/28
-192.168.5.48/28
-192.168.5.64/28
-192.168.5.80/28
-192.168.5.96/28
-192.168.5.112/28
-192.168.5.128/28
-192.168.5.144/28
-192.168.5.160/28
-192.168.5.176/28
-192.168.5.192/28
-192.168.5.208/28
-192.168.5.224/28
-192.168.5.240/28
+Network Addresses:
+ - 192.168.5.0/28
+ - 192.168.5.16/28
+ - 192.168.5.32/28
+ - 192.168.5.48/28
+ - 192.168.5.64/28
+ - 192.168.5.80/28
+ - 192.168.5.96/28
+ - 192.168.5.112/28
+ - 192.168.5.128/28
+ - 192.168.5.144/28
+ - 192.168.5.160/28
+ - 192.168.5.176/28
+ - 192.168.5.192/28
+ - 192.168.5.208/28
+ - 192.168.5.224/28
+ - 192.168.5.240/28
 
 Question  — Find Network and Broadcast Address
 Given:10.20.30.200/29
@@ -350,11 +362,10 @@ Block size:
 256 - 192 = 64
 
 Subnets
-
-192.168.100.0/26
-192.168.100.64/26
-192.168.100.128/26
-192.168.100.192/26
+  - 192.168.100.0/26
+  - 192.168.100.64/26
+  - 192.168.100.128/26
+  -192.168.100.192/26
 
 Each subnet provides:
 
@@ -481,5 +492,34 @@ Number of Subnets
 |/28| 255.255.255.240| 16| 14| 16|
 |/29| 255.255.255.248| 8| 6| 8|
 |/30| 255.255.255.252| 4| 2| 4|
+
+##  What I Learned
+
+Through these exercises, I practiced:
+
+- Understanding CIDR notation
+- Converting CIDR to subnet masks
+- Calculating network and broadcast addresses
+- Finding first and last usable hosts
+- Calculating total and usable addresses
+- Calculating block size
+- Identifying the subnet to which an IP belongs
+- Calculating required CIDR based on host requirements
+- Dividing a network into equal-sized subnets
+- Applying subnetting concepts to practical network scenarios
+
+🔐 Cybersecurity Relevance
+
+Subnetting is important in cybersecurity because it helps with:
+
+- Network segmentation
+- VLAN and subnet design
+- Limiting broadcast domains
+- Access control and firewall rules
+- Isolating sensitive systems
+- Understanding network traffic
+- Identifying whether an IP belongs to a particular network
+
+«Goal: Build enough subnetting knowledge to confidently analyze IP addresses and understand how networks are divided and secured.»
 
 
