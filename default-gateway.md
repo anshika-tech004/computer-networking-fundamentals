@@ -23,9 +23,9 @@
   
 ## How to check Default Gateway?
 
-  ![screenshot1 using ipconfig in my command prompt](checking-Default-gateway)
-  ![screenshot2 using ipconfig/all](default-gateway-check)
-  ![screenshot3 part of screenshot2](default-gateway-checking)
+  ![screenshot1 using ipconfig in my command prompt](checking-Default-gateway.png)
+  ![screenshot2 using ipconfig/all](default-gateway-check.png)
+  ![screenshot3 part of screenshot2](default-gateway-checking.png)
 
 # Troubleshooting 
 - If a device can communicate with local devices but cannot reach another network check:
