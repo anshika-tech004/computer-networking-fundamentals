@@ -11,3 +11,19 @@
 - STEP3: Router keeps a translation table that maps the private IP and port to the public IP and port
 - STEP4: When response comes back router uses the table to forward the packet to correct internal device
 
+    - Private IP → NAT Router → Public IP → Internet
+
+
+## PAT (Port Address Translation)
+- It is extension of NAT that uses port number to allow multiple private devices to share single IP address
+
+## NAT VS PAT
+|Features| NAT| PAT|
+|----|----|----|
+|Full form| Network Address Translation| Port Address Translation|
+|Role| Translates IP address| Translates IP address and port number|
+|Mapping| One to one or many to many| Many to one|
+|Public IP requirement| can require multiple public IPs| usually uses 1 public IP|
+|Port number| generally unchanged| modifies|
+
+
