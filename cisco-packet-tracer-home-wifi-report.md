@@ -155,15 +155,14 @@ Connectivity was tested from the Packet Tracer laptop using the ping command.
 
 ### Test  — Laptop to Printer
 
-![Connectivity screenshot](.connectivity-test-ping.png)
+![Connectivity screenshot](connectivity-test-ping.png)
 
 - observation:
     - The successful connectivity test confirms that the configured devices can communicate correctly within the simulated network.
 
 Command:
 
- ```text
-      ping 192.168.1.103
+```text  ping 192.168.1.103
 
 ## Key Learning
 
