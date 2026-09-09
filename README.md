@@ -27,7 +27,7 @@ Week 2: ✓
   - Wireshark network traffic analysis report
   - Sanitized Screenshots(evidence)
 
-Week 3: (PLANNED)
+Week 3: ✓
   - IP Addressing
   - IPv4
   - IPv6
@@ -36,6 +36,8 @@ Week 3: (PLANNED)
   - Subnet mask
   - CIDR+Subnetting
   - Default gateway+DHCP+NAP
-  - IP troubleshooting
+  - CISCO Packet Tracer Home Wifi ( Report and screenshot)
+
+Week 4:
   
      
