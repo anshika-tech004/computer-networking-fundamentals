@@ -182,7 +182,7 @@ The following practical tests were performed to support the network journey.
  - Purpose- Used to observe responding network hops toward the destination.
 
 3. Connectivity Test
- ![network reachability checking](connectivity-test.png)
+ ![network reachability checking](connectivity-test2.png)
 
  - Purpose- Used to test basic network reachability and observe ICMP responses when the destination/network permits them.
 
@@ -191,8 +191,12 @@ The following practical tests were performed to support the network journey.
 TCP and TLS communication was previously observed during the Week 2 Wireshark practical.
 
 Relevant observations included:
+ ![TCP three-way handshake](TCP-three-way-handshake-sanitized.png) 
 
+ ![TLS server hello](TLS-server-hello-sanitized.png)
 
+ ![TCP FIN-ACK](TCP-FIN-ACK-sanitized.png)
+ 
 - TCP SYN
 - TCP SYN-ACK
 - TCP ACK
