@@ -29,6 +29,8 @@ Previous Wireshark observations of TCP and TLS communication are also referenced
 
 ## Networking Diagram
 
+![google networking journey](google-network-journey.png)
+
 ## Step-by-Step Journey
 
 1. User Enters "google.com"
