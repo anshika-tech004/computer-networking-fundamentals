@@ -7,7 +7,8 @@ Documenting my journey of learning computer networking through my notes, diagram
       - OSI Model 
       - IP addressing
       - build a foundation for future technical projects 
-## Progress:
+## Progress: 
+ - Month 1 ☑️ 
 
 ### MONTH 1: Computer Networking
 
@@ -24,6 +25,7 @@ Week 2: ✓
   - Mapping to OSI
   - TCP VS UDP
   - Common Protocols
+  - OSI+TCP/IP troubleshooting scenarios
   - Wireshark network traffic analysis report
   - Sanitized Screenshots(evidence)
 
@@ -35,9 +37,29 @@ Week 3: ✓
   - Private IP
   - Subnet mask
   - CIDR+Subnetting
-  - Default gateway+DHCP+NAP
+  - Default gateway+DHCP
+  - NAT-PAT
   - CISCO Packet Tracer Home Wifi ( Report and screenshot)
 
-Week 4:
+Week 4: ✓ 
+  - Google network journey report
+  - Screenshots
+
+Tools Used:
+  - draw.io
+  - Cisco Packet tracer
+  - Wireshark
+  - command prompt
+  - Github
+
+Learning Platform:
+ - Cisco Networking Academy
+ - youtube
+
+### MONTH 2: Linux
+
+Week 1: 
+ 
+
   
      
