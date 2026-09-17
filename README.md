@@ -1,5 +1,7 @@
 # computer-networking-fundamentals
-Documenting my journey of learning computer networking through my notes, diagrams, and hands-on practice.
+As part of my ongoing technical development, I am building my skills through consistent, hands-on learning alongside my other commitments.
+This repository documents my Month 1 learning journey in computer networking fundamental, including notes, diagrams, packet analysis work and hands on projects completed throughout the month.
+
 ## Learning Goals:
       - understand how computer networks work
       - Learn networking devices and it's functions 
@@ -7,6 +9,7 @@ Documenting my journey of learning computer networking through my notes, diagram
       - OSI Model 
       - IP addressing
       - build a foundation for future technical projects 
+      
 ## Progress: 
  - Month 1 ☑️ 
 
@@ -42,8 +45,10 @@ Week 3: ✓
   - CISCO Packet Tracer Home Wifi ( Report and screenshot)
 
 Week 4: ✓ 
-  - Google network journey report
-  - Screenshots
+  - Google network journey project
+  - Network communication path visualization
+  - Network diagram
+  - Supporting screenshots and documentation
 
 Tools Used:
   - draw.io
@@ -52,14 +57,14 @@ Tools Used:
   - command prompt
   - Github
 
-Learning Platform:
+Learning Resources:
  - Cisco Networking Academy
  - youtube
 
-### MONTH 2: Linux
+### Key Learning
+This month helped me build a practical understanding of how devices communicate across network and how different networking concepts work together.
+Through hands on- practice with Wireshark and Cisco Packet Tracer, I was able to connect theoretical concepts with practical network scenarios.  
 
-Week 1: 
- 
 
   
      
